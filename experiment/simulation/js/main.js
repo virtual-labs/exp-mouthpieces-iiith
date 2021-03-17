@@ -32,7 +32,6 @@ let sleep = (ms) => {
       await sleep(0.5);
     }
   };
-  asyncMove("long-1")
   let startAnimation = async () => {
     let flags = [1, 1, 1, 1]
     for (let i = 0; i < ids.length; i++) {
