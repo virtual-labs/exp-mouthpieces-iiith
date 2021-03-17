@@ -25,7 +25,7 @@ let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   let path = document.getElementById(id);
   let flags = [true, true, true, true, true, true, true];
   while (true) {
-    speed2 = document.getElementById("water-flow").value;
+    let speed2 = document.getElementById("water-flow").value;
     speed2 = speed2 * 0.0002;
     speed2 = speed2 == 0 ? 0.0002 : speed2;
     // For Moving water in all seven pipes asynchronusly
@@ -39,14 +39,14 @@ let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
 let startAnimation = async () => {
   let flags = [1, 1, 1, 1];
   for (let i = 0; i < ids.length; i++) {
-    speed2 = document.getElementById("water-flow").value;
-    speed2 = speed2 * 0.0002;
-    speed2 = speed2 == 0 ? 0.0002 : speed2;
     id = ids[i];
     let path = document.getElementById(id);
     let finalPosition = 1;
     let curPosition = 0;
     while (true) {
+      let speed2 = document.getElementById("water-flow").value;
+      speed2 = speed2 * 0.0002;
+      speed2 = speed2 == 0 ? 0.0002 : speed2;
       if (curPosition > finalPosition) break;
       curPosition += speed2;
       path.setAttribute("offset", curPosition);
