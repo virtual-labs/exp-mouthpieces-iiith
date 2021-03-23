@@ -18,3 +18,15 @@
   margin-right: auto;
   position: relative;
 }
+.action-button {
+  color: white;
+  text-align: center;
+  background-color: #288ec8;
+  border-radius: 16px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.action-button:hover {
+  background-color: #a9a9a9;
+}
