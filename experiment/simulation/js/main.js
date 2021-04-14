@@ -8,11 +8,7 @@ let arrayRemove = (arr, value) => {
   });
 };
 
-/**
- * tube-1
- * tube-2
- */
-ids = [
+let ids = [
   "long-1",
   "container-1",
   "curve-start",
@@ -23,7 +19,6 @@ ids = [
 
 let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   let path = document.getElementById(id);
-  let flags = [true, true, true, true, true, true, true];
   while (true) {
     let speed2 = document.getElementById("water-flow").value;
     speed2 = speed2 * 0.0002;
@@ -36,10 +31,9 @@ let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   }
 };
 
-let startAnimation = async () => {
-  let flags = [1, 1, 1, 1];
+let animation = async () => {
   for (let i = 0; i < ids.length; i++) {
-    id = ids[i];
+    let id = ids[i];
     let path = document.getElementById(id);
     let finalPosition = 1;
     let curPosition = 0;
@@ -56,24 +50,17 @@ let startAnimation = async () => {
 };
 
 let resetEverything = () => {
-  tube_ids = [
-    // null
-  ];
-  tube_ids.forEach((element) => {
-    let path = document.getElementById(element);
-    path.setAttribute("offset", 0);
-  });
-  ids.forEach((ele) => {
-    let path = document.getElementById(ele);
+  ids.forEach((id) => {
+    let path = document.getElementById(id);
     path.setAttribute("offset", 0);
   });
 };
-disablestart = false;
-let startAn = async () => {
+
+let startAnimation = async () => {
   resetEverything();
   document.getElementById("startbutton").disabled = true;
   document.getElementById("resetbutton").disabled = true;
-  await startAnimation();
+  await animation();
   document.getElementById("startbutton").disabled = false;
   document.getElementById("resetbutton").disabled = false;
 };
