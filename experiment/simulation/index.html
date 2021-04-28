@@ -11,26 +11,21 @@
   <body>
     <div class="container">
       <div class="center">
-        <button
-          type="button"
-          class="action-button btn btn-lg"
-          id="startbutton"
-          onclick="startAnimation()"
-        >
+        <button type="button" id="startbutton" class="action-button" onclick="startAnimation()">
           Start
         </button>
-        <button
-          type="button"
-          class="action-button btn btn-lg"
-          id="resetbutton"
-          onclick="resetEverything()"
-        >
+        <button type="button" id="resetbutton" class="action-button" onclick="resetEverything()">
           Reset
         </button>
       </div>
     </div>
     <div class="slidecontainer">
-      <label for="customRange1" style="font-size: 20;" class="form-label relative_center">Control flow speed</label>
+      <label
+        for="customRange1"
+        style="font-size: 1.4vw"
+        class="form-label relative_center"
+        >Control flow speed</label
+      >
       <input type="range" class="form-range" id="water-flow" />
     </div>
     <svg

@@ -27,16 +27,20 @@
   margin-right: auto;
   position: relative;
 }
-
 .action-button {
   color: white;
   text-align: center;
   background-color: #288ec8;
   border-radius: 16px;
-  padding: 10px 20px;
+  padding: 0.6vw 2vw;
   border: none;
+  font-size: 1.4vw;
 }
 
 .action-button:hover {
   background-color: #a9a9a9;
+}
+.startbutton {
+  width: 100%;
+  height: 100%;
 }
