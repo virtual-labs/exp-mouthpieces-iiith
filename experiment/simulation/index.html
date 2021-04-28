@@ -11,10 +11,20 @@
   <body>
     <div class="container">
       <div class="center">
-        <button type="button" class="action-button" onclick="startAnimation()">
+        <button
+          type="button"
+          id="startbutton"
+          class="action-button"
+          onclick="startAnimation()"
+        >
           Start
         </button>
-        <button type="button" class="action-button" onclick="resetEverything()">
+        <button
+          type="button"
+          id="resetbutton"
+          class="action-button"
+          onclick="resetEverything()"
+        >
           Reset
         </button>
       </div>
@@ -22,7 +32,7 @@
     <div class="slidecontainer">
       <label
         for="customRange1"
-        style="font-size: 1.4vw"
+        style="font-size: 2vw"
         class="form-label relative_center"
         >Control flow speed</label
       >
