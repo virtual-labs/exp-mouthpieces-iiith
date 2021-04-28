@@ -11,35 +11,10 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
-.relative_center {
-  margin: 0;
-  position: relative;
-  left: 50%;
-  -ms-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-}
-
 .slidecontainer {
   width: 40%; /* Width of the outside container */
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-}
-.action-button {
-  color: white;
-  text-align: center;
-  background-color: #288ec8;
-  border-radius: 16px;
-  padding: 0.6vw 2vw;
-  border: none;
-  font-size: 2vw;
-}
-
-.action-button:hover {
-  background-color: #a9a9a9;
-}
-input[type="range"] {
-  transform: scale(0.8);
 }
