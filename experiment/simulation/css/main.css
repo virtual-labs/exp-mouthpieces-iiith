@@ -27,19 +27,16 @@
   margin-right: auto;
   position: relative;
 }
+
 .action-button {
   color: white;
   text-align: center;
   background-color: #288ec8;
   border-radius: 16px;
-  padding: 0.6vw 2vw;
+  padding: 10px 20px;
   border: none;
-  font-size: 2vw;
 }
 
 .action-button:hover {
   background-color: #a9a9a9;
-}
-input[type="range"] {
-  transform: scale(0.8);
 }
