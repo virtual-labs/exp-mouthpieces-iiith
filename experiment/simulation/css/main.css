@@ -11,6 +11,15 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.relative_center {
+  margin: 0;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
 .slidecontainer {
   width: 40%; /* Width of the outside container */
   margin-top: 20px;
