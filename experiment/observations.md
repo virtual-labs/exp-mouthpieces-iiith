@@ -1,3 +1,3 @@
- <center><img src="images/image1.png"> <br></p> </center>
+<img src="images/image1.png"> 
 
 [Read More](docs/4.Mouthpieces.pdf)
