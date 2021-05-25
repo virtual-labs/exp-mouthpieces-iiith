@@ -8,4 +8,4 @@ Q4. The rate of discharge of an mouth piece is more than that of orifice
 
 Q5. The approximate distance of venacontracta from the centre of mouthpiece is d
 
-[Read More](docs/4.Mouthpieces.pdf)
+To read about the Assignment of the experiment click [here](docs/4.Mouthpieces.pdf)
