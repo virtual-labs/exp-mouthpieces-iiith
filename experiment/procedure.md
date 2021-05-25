@@ -7,4 +7,6 @@ Procedure for the experiment is as follows:
 5. The **Control flow speed** glider is dynamic and can be changed midway when the water is filling up too. 
 6. Click/Tap on the **Reset** button to restart the expeirment afresh, i.e., with empty apparatus.
 
-[Read More](docs/4.Mouthpieces.pdf)
+
+To read about the Procedure of the experiment click [here](docs/4.Mouthpieces.pdf)
+
