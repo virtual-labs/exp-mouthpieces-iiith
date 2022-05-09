@@ -1,11 +1,12 @@
 <html>
   <head>
-    <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
-    />
+    /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.css">
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
@@ -13,7 +14,7 @@
       <div class="center">
         <button
           type="button"
-          class="action-button btn btn-lg"
+          class="v-button btn btn-lg"
           id="startbutton"
           onclick="startAnimation()"
         >
@@ -21,17 +22,17 @@
         </button>
         <button
           type="button"
-          class="action-button btn btn-lg"
+          class="v-button btn btn-lg"
           id="resetbutton"
           onclick="resetEverything()"
         >
          Reset
         </button>
       </div>
-    </div>
-    <div class="slidecontainer">
+    </div><br/> 
+    <div class="v-slider">
       <label for="customRange1" style="font-size: 20;" class="form-label relative_center">Control flow speed</label>
-      <input type="range" class="form-range" id="water-flow" />
+      <input type="range" class="v-slider-full" id="water-flow" />
     </div>
     <svg
       viewBox="0 0 1152 782"

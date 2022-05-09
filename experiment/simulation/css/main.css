@@ -20,9 +20,9 @@
   transform: translate(-50%, 0);
 }
 
-.slidecontainer {
-  width: 40%; /* Width of the outside container */
-  margin-top: 20px;
+/*.slidecontainer {
+  width: 40%;*/ /* Width of the outside container */
+  /*margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -39,4 +39,4 @@
 
 .action-button:hover {
   background-color: #a9a9a9;
-}
+}*/
