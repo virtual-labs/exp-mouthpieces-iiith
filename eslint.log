@@ -1,0 +1,9 @@
+
+/home/runner/work/exp-mouthpieces-iiith/exp-mouthpieces-iiith/experiment/simulation/js/main.js
+   5:5   warning  'arrayRemove' is assigned a value but never used     no-unused-vars
+  16:10  warning  Unexpected constant condition                        no-constant-condition
+  35:12  warning  Unexpected constant condition                        no-constant-condition
+  62:5   warning  'startAnimation' is assigned a value but never used  no-unused-vars
+
+✖ 4 problems (0 errors, 4 warnings)
+
