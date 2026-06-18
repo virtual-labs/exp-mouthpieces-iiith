@@ -23,6 +23,15 @@ overflow-x: hidden;
 	height: 100%;
 }
 
+<<<<<<< HEAD
+
+.slidecontainer {
+  width: 40%; /* Width of the outside container */
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+=======
 #container{
 	height: 400px;
 }
@@ -43,12 +52,19 @@ overflow-x: hidden;
 
 g {
 	outline-color: solid 10px black;
+>>>>>>> ed166d79d105554842e6d7fc35d9a54962e42cc6
 }
 
 .apparatus {
 	order: 1;
 }
 
+<<<<<<< HEAD
+.action-button:hover {
+  background-color: #a9a9a9;
+}
+
+=======
 .simulation {
 	order: 2;
 }
@@ -70,3 +86,4 @@ g {
 		order: 2;
 	}
 }
+>>>>>>> ed166d79d105554842e6d7fc35d9a54962e42cc6
