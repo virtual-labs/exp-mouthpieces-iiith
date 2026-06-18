@@ -1,1 +1,158 @@
-[{"question":"1. In a short cylindrical external mouthpiece, the vena contracta occurs at what distance from the diameter of the orifice from the outlet of the orifice?","answers":{"a":"Equal distance","b":"One-fourth distance","c":"One-third distance","d":"One-half distance"},"correctAnswer":"b"},{"question":"2. The convergent-divergent mouthpiece has maximum coefficient of discharge:","answers":{"a":"True","b":"False"},"correctAnswer":"a"}]
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. In a short cylindrical external mouthpiece, the vena contracta occurs at approximately what distance from the entrance?",
+      "answers": {
+        "a": "Equal to the diameter of the orifice",
+        "b": "One-fourth of the diameter of the orifice",
+        "c": "One-half of the diameter of the orifice",
+        "d": "Twice the diameter of the orifice"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. The vena contracta forms closer to the entrance than one full diameter.",
+        "b": "Correct. In a short cylindrical external mouthpiece, the vena contracta occurs at approximately one-fourth of the diameter from the entrance.",
+        "c": "Incorrect. The vena contracta forms before this location.",
+        "d": "Incorrect. Such a distance is much greater than the actual location of the vena contracta."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which type of mouthpiece generally has the highest coefficient of discharge?",
+      "answers": {
+        "a": "Convergent-divergent mouthpiece",
+        "b": "External cylindrical mouthpiece",
+        "c": "Internal mouthpiece",
+        "d": "Borda's mouthpiece"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The convergent-divergent mouthpiece provides excellent pressure recovery and thus has the highest coefficient of discharge.",
+        "b": "Incorrect. External cylindrical mouthpieces have lower discharge coefficients.",
+        "c": "Incorrect. Internal mouthpieces do not provide the maximum coefficient of discharge.",
+        "d": "Incorrect. Borda's mouthpiece has a lower coefficient of discharge."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The coefficient of discharge of a mouthpiece is defined as the ratio of:",
+      "answers": {
+        "a": "Theoretical discharge to actual discharge",
+        "b": "Actual velocity to theoretical velocity",
+        "c": "Actual discharge to theoretical discharge",
+        "d": "Area at vena contracta to area of orifice"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. This ratio is the reciprocal of the coefficient of discharge.",
+        "b": "Incorrect. This defines the coefficient of velocity.",
+        "c": "Correct. Coefficient of discharge is the ratio of actual discharge to theoretical discharge.",
+        "d": "Incorrect. This defines the coefficient of contraction."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Why does a cylindrical external mouthpiece discharge more fluid than an orifice under the same head?",
+      "answers": {
+        "a": "Because the jet expands and fills the mouthpiece after vena contracta formation",
+        "b": "Because friction losses are absent",
+        "c": "Because atmospheric pressure becomes zero",
+        "d": "Because the fluid density increases"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The jet contracts and then expands to fill the mouthpiece, creating a pressure difference that increases discharge.",
+        "b": "Incorrect. Friction losses still exist in practical situations.",
+        "c": "Incorrect. Atmospheric pressure does not become zero.",
+        "d": "Incorrect. Fluid density remains essentially constant for liquids."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. In a convergent-divergent mouthpiece, the diverging portion is provided mainly to:",
+      "answers": {
+        "a": "Increase energy losses",
+        "b": "Reduce pressure recovery",
+        "c": "Decrease the discharge",
+        "d": "Convert velocity head into pressure head"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The diverging section is designed to reduce losses.",
+        "b": "Incorrect. The diverging section improves pressure recovery.",
+        "c": "Incorrect. The discharge generally increases rather than decreases.",
+        "d": "Correct. The diverging section helps recover pressure by converting velocity head into pressure head."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Which quantity is experimentally measured to determine the coefficient of discharge of a mouthpiece?",
+      "answers": {
+        "a": "Actual discharge",
+        "b": "Atmospheric pressure",
+        "c": "Pipe roughness",
+        "d": "Specific gravity of air"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Actual discharge is measured experimentally and compared with theoretical discharge to determine the coefficient of discharge.",
+        "b": "Incorrect. Atmospheric pressure is not directly used for this measurement.",
+        "c": "Incorrect. Pipe roughness is not experimentally measured for this purpose.",
+        "d": "Incorrect. Specific gravity of air is unrelated to mouthpiece discharge calculations."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. Which theorem is applied to derive the theoretical discharge equation for a mouthpiece?",
+      "answers": {
+        "a": "Pascal's law",
+        "b": "Archimedes' principle",
+        "c": "Bernoulli's theorem",
+        "d": "Newton's law of viscosity"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Pascal's law deals with pressure transmission in static fluids.",
+        "b": "Incorrect. Archimedes' principle concerns buoyancy.",
+        "c": "Correct. Bernoulli's theorem relates pressure head and velocity head and forms the basis for discharge analysis.",
+        "d": "Incorrect. Newton's law describes viscous behavior rather than discharge equations."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Cavitation in a mouthpiece is most likely to occur when:",
+      "answers": {
+        "a": "Pressure inside the mouthpiece falls below vapor pressure",
+        "b": "Velocity becomes zero",
+        "c": "The fluid density increases",
+        "d": "The coefficient of discharge exceeds unity"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Cavitation occurs when the local pressure falls below the vapor pressure of the liquid.",
+        "b": "Incorrect. Zero velocity does not cause cavitation.",
+        "c": "Incorrect. Density increase is not responsible for cavitation.",
+        "d": "Incorrect. Coefficient of discharge cannot exceed unity in practice."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. For a given head, a convergent-divergent mouthpiece provides greater discharge because it:",
+      "answers": {
+        "a": "Eliminates gravity effects",
+        "b": "Provides better pressure recovery and minimizes losses",
+        "c": "Increases fluid viscosity",
+        "d": "Reduces the area at the outlet to zero"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Gravity continues to act on the flowing fluid.",
+        "b": "Correct. Improved pressure recovery and reduced losses lead to higher discharge.",
+        "c": "Incorrect. Viscosity is a fluid property and is not increased by the mouthpiece.",
+        "d": "Incorrect. Zero outlet area would prevent flow."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
