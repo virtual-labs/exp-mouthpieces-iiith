@@ -1,1 +1,158 @@
-[{"question":"1. Moutpiece experiment is used to measure:","answers":{"a":"Density of liquid","b":"Pressure of liquid","c":"Rate of flow of liquid","d":"Velocity of liquid"},"correctAnswer":"c"},{"question":"2. If a convergent mouthpiece is replaced by a convergent-divergent mouthpiece, the discharge through the mouthpiece will:","answers":{"a":"remain the same","b":"depend upon the head of water","c":"increase","d":"decrease"},"correctAnswer":"a"}]
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. A mouthpiece is primarily used to:",
+      "answers": {
+        "a": "Measure fluid density",
+        "b": "Discharge liquid from a tank at a measurable rate",
+        "c": "Measure fluid viscosity",
+        "d": "Increase atmospheric pressure"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Density is measured using instruments such as hydrometers.",
+        "b": "Correct. A mouthpiece is used to discharge fluid from a tank and regulate the flow rate.",
+        "c": "Incorrect. Viscosity is measured using viscometers.",
+        "d": "Incorrect. Atmospheric pressure cannot be increased using a mouthpiece."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. A mouthpiece is generally defined as an attachment whose length is:",
+      "answers": {
+        "a": "Two to three times its diameter",
+        "b": "Equal to its diameter",
+        "c": "Ten times its diameter",
+        "d": "Less than half its diameter"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. A mouthpiece is a short tube whose length is generally two to three times its diameter.",
+        "b": "Incorrect. Such dimensions do not satisfy the usual definition of a mouthpiece.",
+        "c": "Incorrect. A long tube is not considered a mouthpiece.",
+        "d": "Incorrect. Such a short length is not characteristic of mouthpieces."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which type of mouthpiece projects outward from the wall of a tank?",
+      "answers": {
+        "a": "Internal mouthpiece",
+        "b": "Submerged mouthpiece",
+        "c": "External mouthpiece",
+        "d": "Convergent mouthpiece"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Internal mouthpieces extend inside the tank.",
+        "b": "Incorrect. Submerged mouthpieces discharge below the liquid surface.",
+        "c": "Correct. External mouthpieces are fitted externally and project outward from the tank wall.",
+        "d": "Incorrect. Convergent mouthpieces are classified by shape rather than position."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In a short cylindrical external mouthpiece, vena contracta forms:",
+      "answers": {
+        "a": "Outside the mouthpiece and then expands to fill it",
+        "b": "At the outlet section only",
+        "c": "At the inlet section only",
+        "d": "Uniformly throughout the mouthpiece"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The jet contracts after entering the mouthpiece and subsequently expands to occupy the full cross-section.",
+        "b": "Incorrect. Vena contracta does not occur only at the outlet.",
+        "c": "Incorrect. The flow undergoes contraction after entering the mouthpiece.",
+        "d": "Incorrect. The flow area is not uniform throughout due to contraction and expansion."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Replacing a convergent mouthpiece with a convergent-divergent mouthpiece generally causes the discharge to:",
+      "answers": {
+        "a": "Remain unchanged",
+        "b": "Decrease",
+        "c": "Become zero",
+        "d": "Increase"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Different mouthpiece geometries affect the discharge characteristics.",
+        "b": "Incorrect. A convergent-divergent mouthpiece is designed to improve discharge.",
+        "c": "Incorrect. Flow does not cease merely because the mouthpiece shape changes.",
+        "d": "Correct. A convergent-divergent mouthpiece has a higher coefficient of discharge and hence produces greater discharge."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Which theorem forms the basis for analyzing flow through mouthpieces?",
+      "answers": {
+        "a": "Archimedes' principle",
+        "b": "Bernoulli's theorem",
+        "c": "Pascal's law",
+        "d": "Newton's law of cooling"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Archimedes' principle deals with buoyancy.",
+        "b": "Correct. Bernoulli's theorem is used to analyze the conversion of pressure head into velocity head in mouthpieces.",
+        "c": "Incorrect. Pascal's law concerns pressure transmission in fluids.",
+        "d": "Incorrect. Newton's law of cooling is unrelated to fluid flow through mouthpieces."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. Which type of mouthpiece possesses the highest coefficient of discharge?",
+      "answers": {
+        "a": "External cylindrical mouthpiece",
+        "b": "Convergent mouthpiece",
+        "c": "Convergent-divergent mouthpiece",
+        "d": "Internal mouthpiece"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. External cylindrical mouthpieces have lower discharge coefficients.",
+        "b": "Incorrect. Convergent mouthpieces do not provide the maximum discharge coefficient.",
+        "c": "Correct. Convergent-divergent mouthpieces provide nearly complete pressure recovery and have the highest coefficient of discharge.",
+        "d": "Incorrect. Internal mouthpieces generally have lower discharge coefficients."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Flow through a mouthpiece differs from flow through an orifice mainly because:",
+      "answers": {
+        "a": "The fluid density changes significantly",
+        "b": "The mouthpiece provides an additional length for flow development",
+        "c": "Gravity has no effect on mouthpiece flow",
+        "d": "Mouthpieces eliminate friction losses completely"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Density changes are negligible for incompressible flow.",
+        "b": "Correct. The additional length of the mouthpiece influences contraction and pressure recovery characteristics.",
+        "c": "Incorrect. Gravity still affects the flow process.",
+        "d": "Incorrect. Friction losses cannot be completely eliminated."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. The coefficient of discharge of a mouthpiece is generally:",
+      "answers": {
+        "a": "Greater than unity",
+        "b": "Equal to zero",
+        "c": "Infinite",
+        "d": "Less than unity"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Coefficients greater than one are physically impossible.",
+        "b": "Incorrect. A zero coefficient implies no flow.",
+        "c": "Incorrect. Infinite values are not physically meaningful.",
+        "d": "Correct. Due to losses, the actual discharge is always less than the theoretical discharge, making the coefficient less than one."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
