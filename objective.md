@@ -1,0 +1,3 @@
+- To study the flow characteristics through a mouthpiece.
+- To determine the coefficient of discharge (Cd) of the given mouthpiece.
+- To compare the actual discharge with the theoretical discharge.
