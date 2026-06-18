@@ -1,4 +1,3 @@
-- Fluid Mechanics - RK Bansal
-
-- Experiments on Fluid Mechancis - Sarabjit Singh
-
+- Bansal, R. K. Fluid Mechanics and Hydraulic Machines.
+- Singh, Sarabjit. Experiments in Fluid Mechanics.
+- [Orifice wikipedia](https://en.wikipedia.org/wiki/Orifice)
